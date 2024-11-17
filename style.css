@@ -16,6 +16,7 @@ nav{
     justify-content: center;
     align-items: center;
     transition:  background-color .2s ease-in-out, border-bottom 1s ease-in-out;
+    z-index: 1000;
 }
 
 .nav-bar{
@@ -94,4 +95,169 @@ nav{
     width:100%;
     background-color: #FFF0E5;
     display: flex;
+    position: absolute;
+    top: 79px;
 }
+
+
+
+.section-1 .hero-carousel{
+    width: 674.5px;
+    height:100%;
+    background: url("images/istockphoto-669922594-612x612-removebg-preview.png");
+    background-size: cover;
+}
+
+.section-1 .join-coding{
+    width: 674.5px;
+    height:100%;
+    padding: 0 96px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 .join-coding div{
+    width: 578.5px;
+    height: 489px;
+    padding: 64px 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 110px;
+
+}
+
+.section-1 .join-coding div h1{
+    color: #10162F;
+    font-size: 26px;
+    margin: 0 0 32px;
+    width:400px;
+    height: 78px;
+    font-weight: 600;
+}
+
+.section-1 .join-coding div span.step-span{
+    color: #10162F;
+    text-transform: uppercase;
+    font-size: 14px;
+    width:400px;
+    height:21px;
+}
+
+.section-1 .join-coding div .ask-for-phone{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height:278px;
+    /* margin-top: -50px; */
+    align-items: center;
+    padding: 0;
+}
+
+.section-1 .join-coding div .ask-for-phone span{
+    width:400px;
+    height:24px;
+    font-size: 16px;
+    color: #10162F;
+    text-transform: none;
+    font-weight: 450;
+    margin:3px;
+}
+
+.section-1 .join-coding div .ask-for-phone label{
+    width:400px;
+    height:24px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 450;
+    margin:4px;
+}
+
+/* .section-1 .join-coding div .ask-for-phone .input-label{
+        width:400px;
+        height:24px;
+        margin:0 0 4px;
+        text-align: left;
+        /* display: flex; */
+ */
+
+.section-1 .join-coding div .ask-for-phone label span{
+    width:7.77px;
+    height:24px;
+}
+.section-1 .join-coding div .ask-for-phone input{
+    width: 400px;
+    height:50px;
+    padding: 12px 0px 12px 8px;
+    border-radius: 3px;
+    border: .5px solid grey;
+}
+
+.section-1 .join-coding div .ask-for-phone .want-updates{
+    width:400px;
+    height:96px;
+    padding: 0 0 8px;
+    margin-top: 12px;
+}
+.section-1 .join-coding div .ask-for-phone .want-updates label{
+    display: flex;
+    width:392px;
+    height:80px;
+    padding:16px 0;
+    position: relative;
+}
+
+.section-1 .join-coding div .ask-for-phone #want-updates{
+    width: 19px;
+    height: 19px;
+    /* height: 15px; */
+    position: absolute;
+    top:24px;
+    border-radius: 1px;
+    accent-color: #3A10E5;
+    cursor: pointer;
+    /* appearance: none; */
+    /* border:1px solid black ; */
+    /* margin:.5px 5px; */
+    /* border:none; */
+    display:inline-block;
+}
+
+.section-1 .join-coding div .ask-for-phone .want-updates label span{
+    width:362px;
+    height:48px;
+    font:16px;
+    font-weight: 450;
+    margin-left: 28px;
+}
+
+.section-1 .join-coding #continue{
+    width:406px;
+    height:46px;
+    background-color: #3A10E5;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #want-updates:hover{
+    outline: .5px solid #3A10E5;
+} */
